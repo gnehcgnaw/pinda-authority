@@ -33,3 +33,4 @@ pd-tools/pd-tools-jwt/target
 pd-tools/pd-tools-log/target
 pd-tools/pd-tools-swagger2/target
 pd-tools/pd-tools-xss/target
+pd-examples/mySwaggerApp/target

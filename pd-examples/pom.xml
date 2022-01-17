@@ -17,5 +17,6 @@
     <modules>
         <module>knife4j_demo</module>
         <module>swagger_demo</module>
+        <module>mySwaggerApp</module>
     </modules>
 </project>
