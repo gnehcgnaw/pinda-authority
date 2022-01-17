@@ -19,5 +19,6 @@
         <module>swagger_demo</module>
         <module>mySwaggerApp</module>
         <module>dozer_demo</module>
+        <module>myDozerApp</module>
     </modules>
 </project>
