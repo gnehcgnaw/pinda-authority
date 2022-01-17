@@ -20,5 +20,7 @@
         <module>mySwaggerApp</module>
         <module>dozer_demo</module>
         <module>myDozerApp</module>
+        <module>hibernate-validator_demo</module>
+        <module>myHibernateValidatorApp</module>
     </modules>
 </project>
