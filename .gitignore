@@ -24,3 +24,12 @@ hs_err_pid*
 .idea
 pd-examples/swagger_demo/target
 pd-examples/pd-examples.iml
+pd-apps/pd-gateway/target
+pd-apps/pd-auth/pd-auth-server/target
+pd-examples/knife4j_demo/target
+pd-tools/pd-tools-dozer/target
+pd-tools/pd-tools-j2cache/target
+pd-tools/pd-tools-jwt/target
+pd-tools/pd-tools-log/target
+pd-tools/pd-tools-swagger2/target
+pd-tools/pd-tools-xss/target
