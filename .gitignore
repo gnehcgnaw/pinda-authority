@@ -35,3 +35,4 @@ pd-tools/pd-tools-swagger2/target
 pd-tools/pd-tools-xss/target
 pd-examples/mySwaggerApp/target
 *.iml
+pd-examples/antiSamy_demo/target

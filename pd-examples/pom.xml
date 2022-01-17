@@ -22,5 +22,6 @@
         <module>myDozerApp</module>
         <module>hibernate-validator_demo</module>
         <module>myHibernateValidatorApp</module>
+        <module>antiSamy_demo</module>
     </modules>
 </project>
