@@ -23,8 +23,15 @@
         <module>hibernate-validator_demo</module>
         <module>myHibernateValidatorApp</module>
         <module>antiSamy_demo</module>
-
+        <module>logback_demo</module>
+        <module>springboot_logback_demo</module>
+        <module>springevent_demo</module>
+        <module>myLogApp</module>
         <module>jwt_demo</module>
         <module>myJwtApp</module>
+        <module>argumentResolver_demo</module>
+        <module>myCurrentUserApp</module>
+        <module>exceptionHandler_demo</module>
+        <module>j2cache_demo</module>
     </modules>
 </project>
