@@ -42,8 +42,16 @@ public class ValidateCodeServiceImpl implements ValidateCodeService {
         captcha.out(response.getOutputStream());
     }
 
+    /**
+     * 1、看看验证码有没有过期
+     * 2、验证码有没有正确
+     * 3、校验完成删除验证码
+     * @param key   前端上送 key
+     * @param value 前端上送待校验值
+     * @return
+     */
     @Override
-    public boolean check(String key, String value) {
+    public boolean check(String key, String value) {    //1、看看验证码有没有过期校验完验证码，要删除验证码
         if (StringUtils.isBlank(value)) {
             throw BizException.validFail("请输入验证码");
         }

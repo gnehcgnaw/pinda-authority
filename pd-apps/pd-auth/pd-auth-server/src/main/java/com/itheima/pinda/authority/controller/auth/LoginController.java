@@ -28,7 +28,11 @@ public class LoginController extends BaseController{
     @Autowired
     private AuthManager authManager;
 
-    //为前端系统生成验证码
+    /**
+     *     为前端系统生成验证码
+     *          因为生成的是一张图片，所以没必要有返回值，只需要用response，返回输出流就行
+     * @param key  当前用户验证码的key
+     */
     @GetMapping(value = "/captcha",produces = "image/png")
     @ApiOperation(notes = "验证码",value = "验证码")
     @SysLog("生成验证码")
@@ -36,7 +40,11 @@ public class LoginController extends BaseController{
         validateCodeService.create(key,response);
     }
 
-    //登录认证
+    /**
+     *  登录认证
+     * @param loginParamDTO
+     * @return
+     */
     @PostMapping("/login")
     @ApiOperation(notes = "登录",value = "登录")
     @SysLog("登录")
@@ -52,7 +60,11 @@ public class LoginController extends BaseController{
         return this.success(null);
     }
 
-    //校验验证码
+    /**
+     * 校验验证码
+     * @param loginParamDTO
+     * @return
+     */
     @PostMapping("/check")
     @ApiOperation(notes = "校验验证码",value = "校验验证码")
     public boolean check(@RequestBody LoginParamDTO loginParamDTO){

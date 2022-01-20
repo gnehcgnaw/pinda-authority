@@ -41,7 +41,12 @@ public class AuthManager {
     @Autowired
     private CacheChannel cacheChannel;
 
-    //登录认证
+    /**
+     * 登录认证
+     * @param account
+     * @param password
+     * @return
+     */
     public R<LoginDTO> login(String account, String password) {
         //校验账号、密码是否正确
         R<User> userR = check(account, password);
@@ -64,9 +69,7 @@ public class AuthManager {
             permissionList = userResource.stream().map(Resource::getCode).collect(Collectors.toList());
 
             //将用户对应的权限（给后端网关使用的）进行缓存
-            List<String> visibleResource = userResource.stream().map((resource -> {
-                return resource.getMethod() + resource.getUrl();
-            })).collect(Collectors.toList());
+            List<String> visibleResource = userResource.stream().map((resource -> resource.getMethod() + resource.getUrl())).collect(Collectors.toList());
             //缓存权限数据
             cacheChannel.set(CacheKey.USER_RESOURCE,user.getId().toString(),visibleResource);
         }

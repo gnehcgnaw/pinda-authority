@@ -38,3 +38,10 @@ pd-examples/mySwaggerApp/target
 pd-examples/antiSamy_demo/target
 pd-examples/jwt_demo/target
 pd-examples/myJwtApp/target
+pd-apps/pd-auth/pd-auth-entity/target
+pd-tools/pd-tools-common/target
+pd-tools/pd-tools-core/target/maven-status
+pd-tools/pd-tools-core/target
+pd-tools/pd-tools-validator/target
+pd-tools/pd-tools-user/target
+pd-tools/pd-tools-databases/target
