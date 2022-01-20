@@ -23,5 +23,8 @@
         <module>hibernate-validator_demo</module>
         <module>myHibernateValidatorApp</module>
         <module>antiSamy_demo</module>
+
+        <module>jwt_demo</module>
+        <module>myJwtApp</module>
     </modules>
 </project>

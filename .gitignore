@@ -36,3 +36,5 @@ pd-tools/pd-tools-xss/target
 pd-examples/mySwaggerApp/target
 *.iml
 pd-examples/antiSamy_demo/target
+pd-examples/jwt_demo/target
+pd-examples/myJwtApp/target

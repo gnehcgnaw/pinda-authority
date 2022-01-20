@@ -1,14 +1,13 @@
-package cn.itcast;
+package com.itheima;
 
+import com.itheima.pinda.auth.server.EnableAuthServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * @author gnehcgnaw
- */
 @SpringBootApplication
-public class AntiSamyApp {
+@EnableAuthServer
+public class MyJwtApplication {
     public static void main(String[] args) {
-        SpringApplication.run(AntiSamyApp.class,args);
+        SpringApplication.run(MyJwtApplication.class,args);
     }
 }
