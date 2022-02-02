@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 import javax.validation.constraints.NotEmpty;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
@@ -48,7 +49,7 @@ public class ResourceSaveDTO implements Serializable {
      * 接口名称
      */
     @ApiModelProperty(value = "接口名称")
-    @NotEmpty(message = "接口名称不能为空")
+   // @NotEmpty(message = "接口名称不能为空")
     @Length(max = 255, message = "接口名称长度不能超过255")
     private String name;
     /**
@@ -64,4 +65,13 @@ public class ResourceSaveDTO implements Serializable {
     @Length(max = 255, message = "接口描述长度不能超过255")
     private String describe;
 
+    @ApiModelProperty(value = "请求方式")
+    //@Length(max = 255, message = "接口描述长度不能超过255")
+    @TableField(value = "method")
+    private String method;
+
+    @ApiModelProperty(value = "请求url地址")
+    //@Length(max = 255, message = "接口描述长度不能超过255")
+    @TableField(value = "url")
+    private String url;
 }

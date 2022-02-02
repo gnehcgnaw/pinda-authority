@@ -5,12 +5,12 @@
     <parent>
         <groupId>com.itheima</groupId>
         <artifactId>pd-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0</version>
         <relativePath>../pd-parent</relativePath>
     </parent>
     <groupId>com.itheima</groupId>
     <artifactId>pd-examples</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>Spring Boot 2.0项目依赖管理</description>

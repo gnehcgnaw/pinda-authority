@@ -6,12 +6,12 @@
     <parent>
         <groupId>com.itheima</groupId>
         <artifactId>pd-examples</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <groupId>cn.itcast</groupId>
     <artifactId>antiSamy_demo</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

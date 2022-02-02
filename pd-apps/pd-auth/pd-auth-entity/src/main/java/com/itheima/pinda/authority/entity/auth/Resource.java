@@ -56,7 +56,7 @@ public class Resource extends Entity<Long> {
      * 接口名称
      */
     @ApiModelProperty(value = "接口名称")
-    @NotEmpty(message = "接口名称不能为空")
+   // @NotEmpty(message = "接口名称不能为空")
     @Length(max = 255, message = "接口名称长度不能超过255")
     @TableField(value = "name", condition = LIKE)
     private String name;

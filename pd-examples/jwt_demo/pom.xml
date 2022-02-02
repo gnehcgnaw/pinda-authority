@@ -5,13 +5,13 @@
     <parent>
         <groupId>com.itheima</groupId>
         <artifactId>pd-examples</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.itcast</groupId>
     <artifactId>jwt_demo</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <dependencies>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>

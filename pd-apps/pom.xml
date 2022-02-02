@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.itheima</groupId>
         <artifactId>pd-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0</version>
         <relativePath>../pd-parent</relativePath>
     </parent>
 
@@ -19,6 +19,7 @@
         <module>pd-auth</module>
         <module>pd-gateway</module>
         <!--<module>pd-file</module>-->
+        <module>pd-goods</module>
     </modules>
     <dependencyManagement>
         <dependencies>

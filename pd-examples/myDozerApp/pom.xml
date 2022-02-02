@@ -6,18 +6,18 @@
     <parent>
         <groupId>com.itheima</groupId>
         <artifactId>pd-examples</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <groupId>com.itheima</groupId>
     <artifactId>myDozerApp</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <dependencies>
         <!--引入我们自己定义的dozer基础模块-->
         <dependency>
             <groupId>com.itheima</groupId>
             <artifactId>pd-tools-dozer</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>

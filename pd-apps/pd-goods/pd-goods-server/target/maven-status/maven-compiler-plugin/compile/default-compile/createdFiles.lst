@@ -1,0 +1,10 @@
+META-INF/spring-configuration-metadata.json
+com/itheima/pinda/goods/dao/GoodsInfoMapper.class
+com/itheima/pinda/goods/config/GoodsServerWebConfiguration.class
+com/itheima/pinda/goods/config/GoodsServerMybatisAutoConfiguration.class
+com/itheima/pinda/goods/controller/GoodsInfoController.class
+com/itheima/pinda/goods/config/ExceptionConfiguration.class
+com/itheima/pinda/GoodsServerApplication.class
+com/itheima/pinda/goods/service/GoodsInfoService.class
+com/itheima/pinda/goods/service/impl/GoodsInfoServiceImpl.class
+com/itheima/pinda/goods/config/GoodsDatabaseAutoConfiguration.class
